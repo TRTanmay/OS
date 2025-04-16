@@ -46,14 +46,7 @@ void findPreemptivePriorityScheduling(struct Process p[], int n) {
             totalWT += p[min_idx].wt;
             totalTAT += p[min_idx].tat;
         }
-    }
-    
-    printf("PID\tAT\tBT\tPR\tCT\tTAT\tWT\tRT\n");
-    for (int i = 0; i < n; i++) {
-        printf("%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n", 
-               p[i].pid, p[i].at, p[i].bt, p[i].pr, p[i].ct, p[i].tat, p[i].wt, p[i].rt);
-    }
-    
+    }  
     printf("\nAverage Turnaround Time: %.2f\n", totalTAT / n);
     printf("Average Waiting Time: %.2f\n", totalWT / n);
 }
