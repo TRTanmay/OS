@@ -1,0 +1,13 @@
+Enter number of pages: 8
+Enter pages:
+1 2 3 4 1 2 5 6
+Enter capacity of page frames: 3
+
+FIFO Page Replacement:
+Page Faults: 6
+
+LRU Page Replacement:
+Page Faults: 6
+
+Optimal Page Replacement:
+Page Faults: 5
