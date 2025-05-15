@@ -1,0 +1,30 @@
+Enter number of memory blocks: 3
+Enter size of each block:
+Block 1: 100
+Block 2: 500
+Block 3: 200
+
+Enter number of processes: 4
+Enter size of each process:
+Process 1: 212
+Process 2: 417
+Process 3: 112
+Process 4: 426
+
+First Fit Allocation:
+Process 1 (212KB) -> Block 2
+Process 2 (417KB) -> Block 3
+Process 3 (112KB) -> Block 1
+Process 4 (426KB) -> Not Allocated
+
+Best Fit Allocation:
+Process 1 (212KB) -> Block 3
+Process 2 (417KB) -> Block 2
+Process 3 (112KB) -> Block 1
+Process 4 (426KB) -> Not Allocated
+
+Worst Fit Allocation:
+Process 1 (212KB) -> Block 2
+Process 2 (417KB) -> Block 3
+Process 3 (112KB) -> Block 1
+Process 4 (426KB) -> Not Allocated
